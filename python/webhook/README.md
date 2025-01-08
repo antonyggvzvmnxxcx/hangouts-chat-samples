@@ -1,7 +1,18 @@
-# Set up instructions
+# Google Chat App Webhook
 
-Please install the dependencies:
+Please see related guide on how to [send messages to Google Chat with incoming webhooks](https://developers.google.com/chat/how-tos/webhooks).
 
-`# pip install requirements.txt`
+## Set up instructions
 
-then see the full [guide](https://developers.google.com/hangouts/chat/quickstart/incoming-bot-python)
+  1. Install and activate a virtual environment
+     > ```
+     > virtualenv env
+     > source env/bin/activate
+     > ```
+
+  1. Install the dependencies
+     > ```
+     > pip install -r requirements.txt -U
+     > ```
+     then see the full [guide](https://developers.google.com/chat/how-tos/webhooks)
+
